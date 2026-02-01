@@ -1,0 +1,6 @@
+data sppg di grouping di data final untuk menghitung jumlah sppg di kecamatan
+hasilnya di left join ke tabel data sekolah
+baru dilakui priority score dengan cara jumlah sekolah - jumlah sppg
+jika hasil pengurangan tinggi makan priority score makin tinggi
+priority score digunakan untuk menentukan warna di choropleth
+dibuat diagram batang dengan 2 batang di satu titik sumbu x (jumlah sekolah+jumlah sppg) sumbu y (jumlah)
