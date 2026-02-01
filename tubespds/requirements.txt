@@ -1,0 +1,8 @@
+streamlit
+pandas
+streamlit-folium
+folium
+geopy
+matplotlib
+tqdm
+selenium
