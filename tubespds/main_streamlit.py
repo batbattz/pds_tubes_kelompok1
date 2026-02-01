@@ -8,9 +8,9 @@ from cleaning_geocoding.diagrambatangterbanyak import create_top_10_chart
 st.set_page_config(layout="wide")
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data_koordinat_ready.csv")
-    df2 = pd.read_csv("data_final_priority.csv")
-    geojson_data = load_geojson("Jabar_Kec_clean.json") 
+    df = pd.read_csv("tubespds/cleaning_geocoding/data_koordinat_ready.csv")
+    df2 = pd.read_csv("tubespds/cleaning_geocoding/data_final_priority.csv")
+    geojson_data = load_geojson("tubespds/Jabar_Kec_clean.json") 
     return df, df2, geojson_data
 df, df2, geojson_data = load_data()
 
@@ -131,5 +131,6 @@ with st.expander("Lihat Data Sekolah"):
         mime='text/csv',
 
     )
+
 
 
