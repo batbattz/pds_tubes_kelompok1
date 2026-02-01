@@ -6,3 +6,4 @@ geopy
 matplotlib
 tqdm
 selenium
+json
