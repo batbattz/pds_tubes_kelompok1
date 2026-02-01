@@ -59,11 +59,12 @@ def create_choropleth_map(df_final, geojson):
 @st.cache_data
 def load_geojson(relative_path):
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(current_dir, "..", "Jabar_Kec_clean.json")
+    file_path = os.path.join(current_dir, "..","..", "Jabar_Kec_clean.json")
     
     with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
 # m.save("peta_sppg4.html")
+
 
