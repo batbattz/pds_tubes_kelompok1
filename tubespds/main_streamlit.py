@@ -74,7 +74,7 @@ with col_text:
     st.subheader("")
     st.write("")
     st.text("Di tabel tersebut kita bisa lihat ada nama-nama kecamatan yang memiliki ketimpangan antara jumlah sekolah dan jumlah sppg. Kecamatan yang memerlukan pembangunan sppg dilihat dari priority score yang dicari menggunakan rumus berikut :")
-    st.image("rumus.jpeg")
+    st.image("tubespds/rumus.jpeg")
     st.write("Logika rumus ini secara sengaja memberikan bobot atau penalti lebih berat pada kecamatan yang memiliki jumlah layanan SPPG sangat minim atau bahkan nol, sehingga urgensi pembangunannya akan terlihat lebih menonjol.")
     st.write("")
 with col_diagraml:
@@ -131,6 +131,7 @@ with st.expander("Lihat Data Sekolah"):
         mime='text/csv',
 
     )
+
 
 
 
