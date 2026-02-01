@@ -3,6 +3,7 @@ import folium
 from folium.plugins import MarkerCluster
 import streamlit as st
 import os
+import json
 
 @st.cache_resource
 def create_mark(datak):
@@ -66,6 +67,7 @@ def load_geojson(relative_path):
         return json.load(f)
 
 # m.save("peta_sppg4.html")
+
 
 
 
